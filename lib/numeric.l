@@ -1,8 +1,9 @@
 <numeric_def.l>
+<boolean.l>
 
 ADD  := m.n.n SUCC m
 SUB  := m.n.n PRED m
-MULT := m.n.n (PLUS m) 0
+MULT := m.n.n (ADD m) 0
 POW  := b.e.e b
 
 LEQ := m.n.ZERO? (SUB m n)
