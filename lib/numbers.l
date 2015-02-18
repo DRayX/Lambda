@@ -1,4 +1,4 @@
-<numeric.l>
+<numeric_def.l>
 
 1 := SUCC 0
 2 := SUCC 1

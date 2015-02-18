@@ -1,6 +1,12 @@
-<list_def.l>
-<numeric_def.l>
-<terms.l>
+<pair_def.l>
+
+NIL := FALSE
+
+CONS := PAIR
+HEAD := FIRST
+TAIL := SECOND
+
+NIL? := p.p (x.y.f.FALSE) TRUE
 
 REVERSE := Y (r.o.p.NIL? p o (r (CONS (HEAD p) o) (TAIL p))) NIL
 LIST := n.n (x.y.z.x (CONS z y)) REVERSE NIL
